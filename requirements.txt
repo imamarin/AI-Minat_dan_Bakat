@@ -1,0 +1,9 @@
+pandas          # Untuk membaca file Excel dan mengolah data siswa
+numpy           # Untuk perhitungan numerik dan array
+scikit-learn    # Untuk algoritma AI seperti KMeans clustering dan normalisasi data
+matplotlib      # Untuk membuat grafik visualisasi sederhana (bar, line, scatter)
+seaborn         # Untuk visualisasi data yang lebih menarik (heatmap, cluster plot)
+openpyxl        # Untuk membaca & menulis file Excel (.xlsx)
+reportlab       # Untuk membuat laporan hasil dalam format PDF
+streamlit       # Untuk membangun dashboard interaktif berbasis web
+fpdf
