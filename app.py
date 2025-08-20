@@ -7,6 +7,15 @@ from fpdf import FPDF
 import io
 
 st.set_page_config(page_title="Deteksi Minat & Bakat Siswa", page_icon="🎓")
+# CSS untuk menyembunyikan logo GitHub (ikon kanan atas)
+hide_github_icon = """
+    <style>
+       .st-emotion-cache-1p1m4ay{
+            visibility: hidden;
+        }
+    </style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.title("📊 Kenan AI - Sistem Deteksi Minat & Bakat Siswa")
 st.caption("Aplikasi ini membantu mendeteksi minat dan bakat siswa berdasarkan nilai pelajaran mereka.")
